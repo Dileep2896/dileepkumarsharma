@@ -44,6 +44,7 @@ function ExperienceSection() {
                   display: "flex",
                   flexWrap: "wrap",
                   gap: "5px",
+                  paddingLeft: "0px",
                 }}
               >
                 {elements.skills.map((skill, i) => {
