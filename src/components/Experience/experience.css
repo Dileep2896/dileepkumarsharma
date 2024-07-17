@@ -1,3 +1,32 @@
 .exp-section {
   background-color: #212225;
+  color: black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.timelineDate {
+  color: aliceblue;
+}
+
+.vertical-timeline-element-title {
+  color: aquamarine;
+  text-align: start;
+}
+
+#description {
+  font-size: 12px;
+}
+
+#exp-skill {
+  padding: 5px;
+  font-size: 10px;
+  background-color: #212225;
+  color: white;
+  margin-right: 10px;
 }
