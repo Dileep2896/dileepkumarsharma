@@ -1,25 +1,43 @@
 html,
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(2, 0, 36, 1) 34%,
-    rgba(1, 29, 96, 1) 70%,
-    rgba(0, 80, 203, 1) 100%
-  );
+  background: #26272a;
+  font-family: "Fira Code", Arial;
 }
 
-.section {
+.section,
+.skill-section,
+.exp-section {
   width: 100%;
   height: 100vh;
   justify-content: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .navbar {
-  background-color: #020024 !important;
+  background-color: #26272a !important;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: white;
+}
+
+.nav-link-icons {
+  font-size: 16px;
+}
+
+#nav-name-title {
+  color: #7c7d81;
+}
+
+.home-container {
+  padding-bottom: 4rem;
 }
 
 .home-title {
@@ -28,13 +46,31 @@ body {
   margin-bottom: 0;
 }
 
-#home-title-name {
-  color: #0050cb;
+.home-button {
+  background-color: transparent;
+  border: none;
+  color: #00c7a0;
+  font-size: 22px;
+  padding-top: 4rem;
+  text-decoration: underline;
+}
+
+#text-highlighter {
+  color: #00c7a0;
 }
 
 .home-description {
   color: #979696;
-  /* font-family: "Fira Code"; */
+}
+
+.about {
+  background-color: #212225;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subsection-heading {
@@ -44,6 +80,7 @@ body {
 .subsection-description {
   color: white;
   font-size: 1.2rem;
+  text-align: justify;
 }
 
 .subsec-right-container {
@@ -51,43 +88,8 @@ body {
   justify-content: center;
 }
 
-.cloud-word text {
-  outline: none !important;
-  border: none !important;
-  user-select: none !important;
-}
-
-.cloud-word text:hover {
-  cursor: default !important;
-  pointer-events: none !important;
-}
-
-.word-cloud-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-svg {
-  width: 100%;
-  height: auto;
-}
-
-#subsection-span-highlight {
-  color: #99ccff;
-}
-
 #about-image {
   width: 70%;
-}
-
-#word-cloud {
-  margin: auto;
-  display: block;
-  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* Only For Screen Less Than Medium */
@@ -109,5 +111,36 @@ svg {
   #about-image {
     width: 40%;
     margin-bottom: 2rem;
+  }
+
+  .skill-icon-container i {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .skill-icon-container {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .skill-section {
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about {
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .skill-icon-rows {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #skill-icon-break {
+    margin-bottom: 1rem;
   }
 }

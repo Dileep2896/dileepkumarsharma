@@ -1,0 +1,76 @@
+.card {
+  background-color: #3b3c41;
+  color: #00c7a0;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-body p {
+  color: white;
+}
+
+.card-body > p:last-child {
+  margin-bottom: 0;
+}
+
+.progress {
+  height: 5px;
+}
+
+.full-stack-progess .bg-success {
+  background-color: #f2cb6c !important;
+}
+
+.full-stack-progess .card-title {
+  color: #f2cb6c;
+}
+
+.full-stack-progess span {
+  color: #f2cb6c;
+}
+
+.flutter-progess .bg-success {
+  background-color: #77aaff !important;
+}
+
+.flutter-progess .card-title {
+  color: #77aaff;
+}
+
+.flutter-progess span {
+  color: #77aaff;
+}
+
+.android-progess .bg-success {
+  background-color: #00c7a0 !important;
+}
+
+.skill-icon-container {
+  color: white;
+  font-size: 3rem;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-icon-rows {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skill-icon-container p {
+  font-size: 12px;
+  color: #00c7a0;
+}
+
+.skill-icon-container i {
+  padding: 20px;
+}
+
+#skill-icon-break {
+  margin-bottom: 3rem;
+}
