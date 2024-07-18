@@ -19,6 +19,8 @@ function CustomNavBar() {
               spy={true}
               smooth={true}
               duration={100}
+              href="#"
+              className="custom-nav-link"
             >
               About
             </Nav.Link>
@@ -28,6 +30,8 @@ function CustomNavBar() {
               spy={true}
               smooth={true}
               duration={100}
+              href="#"
+              className="custom-nav-link"
             >
               Skills
             </Nav.Link>
@@ -37,25 +41,37 @@ function CustomNavBar() {
               spy={true}
               smooth={true}
               duration={100}
-              href="#action1"
+              href="#"
+              className="custom-nav-link"
             >
               Experience
             </Nav.Link>
-            <Nav.Link href="#action2">Projects</Nav.Link>
-            <Nav.Link href="#action2">Achivements</Nav.Link>
-            <Nav.Link href="#">Research</Nav.Link>
+            <Nav.Link href="#action2" className="custom-nav-link">
+              Projects
+            </Nav.Link>
+            <Nav.Link href="#action2" className="custom-nav-link">
+              Achivements
+            </Nav.Link>
+            <Nav.Link href="#" className="custom-nav-link">
+              Research
+            </Nav.Link>
           </Nav>
           <Nav className="ms-auto" navbarScroll>
-            <Nav.Link href="https://github.com/Dileep2896" target="_blank">
+            <Nav.Link
+              href="https://github.com/Dileep2896"
+              target="_blank"
+              className="custom-nav-link"
+            >
               <i className="nav-link-icons fa-brands fa-github"></i> Github
             </Nav.Link>
             <Nav.Link
               href="https://www.linkedin.com/in/dileep2896/"
               target="_blank"
+              className="custom-nav-link"
             >
               <i className="nav-link-icons fa-brands fa-linkedin"></i> Linked
             </Nav.Link>
-            <Nav.Link href="#" target="_blank">
+            <Nav.Link href="#" target="_blank" className="custom-nav-link">
               <i className="nav-link-icons fa-solid fa-envelope"></i> Email
             </Nav.Link>
           </Nav>

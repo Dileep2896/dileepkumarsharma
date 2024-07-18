@@ -27,6 +27,10 @@ body {
   color: white;
 }
 
+.navbar-dark .navbar-nav .nav-link.custom-nav-link:hover {
+  color: #00c7a0 !important;
+}
+
 .nav-link-icons {
   font-size: 16px;
 }

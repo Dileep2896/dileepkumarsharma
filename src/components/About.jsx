@@ -33,7 +33,7 @@ function About() {
                 integration. My experience spans working with diverse
                 technologies, including{" "}
                 <span id="text-highlighter">
-                  Node.js, React.js, AWS, Firebase, and more.
+                  Node.js, React.js, Android, Flutter, AWS, Firebase, and more.
                 </span>{" "}
                 I thrive in fast-paced environments, consistently delivering
                 innovative solutions that improve efficiency and user
